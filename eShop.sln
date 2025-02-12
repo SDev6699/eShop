@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# 
+#
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderMicroservice", "OrderMicroservice", "{9853B0C4-04F8-408C-8330-B990F19F9867}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderMicroservice.API", "OrderMicroservice\OrderMicroservice.API\OrderMicroservice.API.csproj", "{07027FF8-E8D4-4FF5-9A11-192D4C0949F6}"
@@ -10,6 +10,16 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderMicroservice.Infrastructure", "OrderMicroservice\OrderMicroservice.Infrastructure\OrderMicroservice.Infrastructure.csproj", "{ABFF2CF8-5CCC-4D66-B29B-D12BD4F8D12E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderMicroservice.Application", "OrderMicroservice\OrderMicroservice.Application\OrderMicroservice.Application.csproj", "{3FA786CF-8966-4C9B-B77D-E901CCB0B13E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductMicroservice", "ProductMicroservice", "{8654A0AB-4733-4335-8475-7545CEA03E11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductMicroservice.API", "ProductMicroservice\ProductMicroservice.API\ProductMicroservice.API.csproj", "{E4A1D1D3-5148-4934-A998-97E8E7BE7C60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductMicroservice.Application", "ProductMicroservice\ProductMicroservice.Application\ProductMicroservice.Application.csproj", "{0F97EABE-ADAA-45A2-9C85-E3957459A1FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductMicroservice.Infrastructure", "ProductMicroservice\ProductMicroservice.Infrastructure\ProductMicroservice.Infrastructure.csproj", "{ADA62866-8D97-4D58-9027-5E3FAECED1AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductMicroservice.Domain", "ProductMicroservice\ProductMicroservice.Domain\ProductMicroservice.Domain.csproj", "{258C7349-3051-4A0B-A86A-CDD288173691}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,11 +43,31 @@ Global
 		{3FA786CF-8966-4C9B-B77D-E901CCB0B13E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FA786CF-8966-4C9B-B77D-E901CCB0B13E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FA786CF-8966-4C9B-B77D-E901CCB0B13E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4A1D1D3-5148-4934-A998-97E8E7BE7C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4A1D1D3-5148-4934-A998-97E8E7BE7C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4A1D1D3-5148-4934-A998-97E8E7BE7C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4A1D1D3-5148-4934-A998-97E8E7BE7C60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F97EABE-ADAA-45A2-9C85-E3957459A1FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F97EABE-ADAA-45A2-9C85-E3957459A1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F97EABE-ADAA-45A2-9C85-E3957459A1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F97EABE-ADAA-45A2-9C85-E3957459A1FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADA62866-8D97-4D58-9027-5E3FAECED1AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA62866-8D97-4D58-9027-5E3FAECED1AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA62866-8D97-4D58-9027-5E3FAECED1AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA62866-8D97-4D58-9027-5E3FAECED1AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{258C7349-3051-4A0B-A86A-CDD288173691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{258C7349-3051-4A0B-A86A-CDD288173691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{258C7349-3051-4A0B-A86A-CDD288173691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{258C7349-3051-4A0B-A86A-CDD288173691}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{07027FF8-E8D4-4FF5-9A11-192D4C0949F6} = {9853B0C4-04F8-408C-8330-B990F19F9867}
 		{0CC61C4D-F062-4E55-B0DB-93EDB1ED042B} = {9853B0C4-04F8-408C-8330-B990F19F9867}
 		{ABFF2CF8-5CCC-4D66-B29B-D12BD4F8D12E} = {9853B0C4-04F8-408C-8330-B990F19F9867}
 		{3FA786CF-8966-4C9B-B77D-E901CCB0B13E} = {9853B0C4-04F8-408C-8330-B990F19F9867}
+		{E4A1D1D3-5148-4934-A998-97E8E7BE7C60} = {8654A0AB-4733-4335-8475-7545CEA03E11}
+		{0F97EABE-ADAA-45A2-9C85-E3957459A1FA} = {8654A0AB-4733-4335-8475-7545CEA03E11}
+		{ADA62866-8D97-4D58-9027-5E3FAECED1AE} = {8654A0AB-4733-4335-8475-7545CEA03E11}
+		{258C7349-3051-4A0B-A86A-CDD288173691} = {8654A0AB-4733-4335-8475-7545CEA03E11}
 	EndGlobalSection
 EndGlobal
