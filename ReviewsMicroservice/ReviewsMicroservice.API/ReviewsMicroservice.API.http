@@ -1,0 +1,6 @@
+@ReviewsMicroservice.API_HostAddress = http://localhost:5121
+
+GET {{ReviewsMicroservice.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
