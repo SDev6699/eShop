@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-#
+# 
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderMicroservice", "OrderMicroservice", "{9853B0C4-04F8-408C-8330-B990F19F9867}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderMicroservice.API", "OrderMicroservice\OrderMicroservice.API\OrderMicroservice.API.csproj", "{07027FF8-E8D4-4FF5-9A11-192D4C0949F6}"
@@ -20,6 +20,16 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductMicroservice.Infrastructure", "ProductMicroservice\ProductMicroservice.Infrastructure\ProductMicroservice.Infrastructure.csproj", "{ADA62866-8D97-4D58-9027-5E3FAECED1AE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductMicroservice.Domain", "ProductMicroservice\ProductMicroservice.Domain\ProductMicroservice.Domain.csproj", "{258C7349-3051-4A0B-A86A-CDD288173691}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ShippingMicroservice", "ShippingMicroservice", "{E6E9A238-0347-4F96-933C-8718A8248749}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShippingMicroservice.Domain", "ShippingMicroservice\ShippingMicroservice.Domain\ShippingMicroservice.Domain.csproj", "{272D48F8-051D-44CA-B4C0-DFA91C64C832}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShippingMicroservice.Application", "ShippingMicroservice\ShippingMicroservice.Application\ShippingMicroservice.Application.csproj", "{48C4BCAD-D4D1-42BA-A39F-E6B4A9555A0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShippingMicroservice.Infrastructure", "ShippingMicroservice\ShippingMicroservice.Infrastructure\ShippingMicroservice.Infrastructure.csproj", "{1AD660FE-A492-4293-BC22-A7FDFC641CE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShippingMicroservice.API", "ShippingMicroservice\ShippingMicroservice.API\ShippingMicroservice.API.csproj", "{6A3F8FB7-8262-4D11-9A5A-54C9BE75A181}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +69,22 @@ Global
 		{258C7349-3051-4A0B-A86A-CDD288173691}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{258C7349-3051-4A0B-A86A-CDD288173691}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{258C7349-3051-4A0B-A86A-CDD288173691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{272D48F8-051D-44CA-B4C0-DFA91C64C832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{272D48F8-051D-44CA-B4C0-DFA91C64C832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{272D48F8-051D-44CA-B4C0-DFA91C64C832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{272D48F8-051D-44CA-B4C0-DFA91C64C832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48C4BCAD-D4D1-42BA-A39F-E6B4A9555A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C4BCAD-D4D1-42BA-A39F-E6B4A9555A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C4BCAD-D4D1-42BA-A39F-E6B4A9555A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C4BCAD-D4D1-42BA-A39F-E6B4A9555A0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AD660FE-A492-4293-BC22-A7FDFC641CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AD660FE-A492-4293-BC22-A7FDFC641CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AD660FE-A492-4293-BC22-A7FDFC641CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AD660FE-A492-4293-BC22-A7FDFC641CE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A3F8FB7-8262-4D11-9A5A-54C9BE75A181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A3F8FB7-8262-4D11-9A5A-54C9BE75A181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A3F8FB7-8262-4D11-9A5A-54C9BE75A181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A3F8FB7-8262-4D11-9A5A-54C9BE75A181}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{07027FF8-E8D4-4FF5-9A11-192D4C0949F6} = {9853B0C4-04F8-408C-8330-B990F19F9867}
@@ -69,5 +95,9 @@ Global
 		{0F97EABE-ADAA-45A2-9C85-E3957459A1FA} = {8654A0AB-4733-4335-8475-7545CEA03E11}
 		{ADA62866-8D97-4D58-9027-5E3FAECED1AE} = {8654A0AB-4733-4335-8475-7545CEA03E11}
 		{258C7349-3051-4A0B-A86A-CDD288173691} = {8654A0AB-4733-4335-8475-7545CEA03E11}
+		{272D48F8-051D-44CA-B4C0-DFA91C64C832} = {E6E9A238-0347-4F96-933C-8718A8248749}
+		{48C4BCAD-D4D1-42BA-A39F-E6B4A9555A0B} = {E6E9A238-0347-4F96-933C-8718A8248749}
+		{1AD660FE-A492-4293-BC22-A7FDFC641CE5} = {E6E9A238-0347-4F96-933C-8718A8248749}
+		{6A3F8FB7-8262-4D11-9A5A-54C9BE75A181} = {E6E9A238-0347-4F96-933C-8718A8248749}
 	EndGlobalSection
 EndGlobal
